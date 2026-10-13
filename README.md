@@ -14,7 +14,13 @@ The skill is the `the-algorithm` folder: a `SKILL.md` plus two reference files.
 cp -R the-algorithm ~/.claude/skills/
 ```
 
-**Claude.ai or the Claude desktop app:** zip the `the-algorithm` folder and upload it under Settings → Capabilities → Skills.
+**Claude.ai or the Claude desktop app** (no GitHub account needed):
+
+1. Download **[the-algorithm.zip](https://github.com/coltonllu/the-algorithm-skill/releases/latest/download/the-algorithm.zip)**. Don't unzip it.
+2. In Claude, go to **Customize → Skills**, click **+**, choose **Create skill**, then **Upload a skill**, and pick the zip.
+3. Make sure the skill's toggle is on.
+
+This needs **Settings → Capabilities → Code execution and file creation** turned on.
 
 ## Notes
 
